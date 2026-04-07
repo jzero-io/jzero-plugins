@@ -20,8 +20,7 @@ var rootCmd = &cobra.Command{
 	Long: `This is an example plugin for jzero that demonstrates
 how to create and structure a jzero plugin.
 
-Plugins must be named with the "jzero-" prefix and
-are installed in ~/.jzero/plugins directory.`,
+Plugins must be named with the "jzero-" prefix.`,
 }
 
 var descCmd = &cobra.Command{
