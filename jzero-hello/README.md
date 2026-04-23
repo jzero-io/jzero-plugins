@@ -12,11 +12,7 @@ A simple example plugin for jzero that demonstrates basic plugin functionality.
 ```bash
 # Build the plugin
 go build -o jzero-hello main.go
-
-# Install manually
-mkdir -p ~/.jzero/plugins
-cp jzero-hello ~/.jzero/plugins/
-chmod +x ~/.jzero/plugins/jzero-hello
+mv jzero-hello $GOBIN
 ```
 
 ## Usage
